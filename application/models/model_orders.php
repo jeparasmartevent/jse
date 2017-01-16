@@ -49,7 +49,7 @@ class Model_orders extends CI_Model {
 
 		//send email
 		$usr_name = $this->session->userdata('username');
-		$from_email = 'jeparasmartevent.info@gmail.com';
+		$from_email = 'jeparasmart*****.info@gmail.com';
 		$to_email = $this->session->userdata('email');
 		$subject = 'Verifikasi Pembayaran';
 		$message =
@@ -102,7 +102,7 @@ class Model_orders extends CI_Model {
 		$config['smtp_port'] = '465'; //smtp port number
 		$config['smtp_timeout']= '400';
 		$config['smtp_user'] = $from_email;
-		$config['smtp_pass'] = 'jseadmin'; //$from_email password
+		$config['smtp_pass'] = '******'; //$from_email password
 		$config['mailtype'] = 'html';
 		$config['charset'] = 'utf-8';
 		$config['wordwrap'] = TRUE;
