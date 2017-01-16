@@ -46,7 +46,7 @@ class Model_users extends CI_Model {
 	//send verification email to user's email id
 	function kirimEmail($to_email)
 	{
-		$from_email = 'jeparasmartevent.info@gmail.com';
+		$from_email = 'jeparasmart****.info@gmail.com';
 		$subject = 'Verify Your Email Address';
 		$encrypted_email = md5($to_email);
 		$message =
@@ -90,7 +90,7 @@ class Model_users extends CI_Model {
 		$config['smtp_port'] = '465'; //smtp port number
 		$config['smtp_timeout']= '400';
 		$config['smtp_user'] = $from_email;
-		$config['smtp_pass'] = 'jseadmin'; //$from_email password
+		$config['smtp_pass'] = '******'; //$from_email password
 		$config['mailtype'] = 'html';
 		$config['charset'] = 'utf-8';
 		$config['wordwrap'] = TRUE;
