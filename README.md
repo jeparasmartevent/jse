@@ -9,7 +9,7 @@ Jepara Smart Event (JSE) mempunya beberapa kategori pilihan yaitu :
 3. Dokumentasi
 
 # TEAM JSE
-1. Andani Rizwan Efendi
+1. Andani Rizwan Efendi (@andanire)
 2. Muhammad Kevin Ryoma
 3. Muhammad Husnu Dzihan
 4. Rona Faroni
